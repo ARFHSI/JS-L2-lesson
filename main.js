@@ -1,15 +1,3 @@
-
-// let sum = 0
-// // let increment = 2
-// for (let index = 0; index <= 25; index += 2) {
-
-//     sum += index
-//     console.log(`index ${index}`,sum);
-// }
-
-
-
-
 // =======================even numbers================
 
 for (let index = 0; index <= 25; index += 2) {
@@ -30,7 +18,44 @@ for (let i = 1; i <= 10; i++) {
     let square = i * i;
     console.log(i, "squared is", square);
   }
+  // =======================================================
+
+  // عملية الجمع
+function sum(num1 , num2){
+return num1 + num2
+}
+
+var x = sum(2,2)
+var y = sum(4,4)
+console.log(x,y);
+
+  // عملية الطرح
+
+function min(num1 , num2){
+    return num1 - num2
+    }
+    
+    var a = min(2,1)
+    var b = min(3,8)
+    console.log(a,b);
 
 
+      // عملية الضرب
 
-  
+      function mult(num1 , num2){
+        return num1 * num2
+        }
+        
+        var c = mult(2,1)
+        var d = mult(3,8)
+        console.log(c,d);
+
+        // عملية القسمة
+
+        function divid(num1 , num2){
+            return num1 / num2
+            }
+            
+            var e = divid(2,1)
+            var f = divid(3,8)
+            console.log(e,f);
